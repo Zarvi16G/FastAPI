@@ -1,0 +1,5 @@
+When i tried install MongoDB, i needed to switch off the environment variable.
+
+sudo systemctl stop mongod
+sudo systemctl unset-environment MONGODB_CONFIG_OVERRIDE_NOFORK
+sudo systemctl start mongod
